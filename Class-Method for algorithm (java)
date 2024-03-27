@@ -11,4 +11,7 @@ startsWith() - 특정 문자 또는 문자열로 시작하는지 체크
 endsWith() - 특정 문자 또는 문자열로 끝나는지 체크
 ------------------------------
 StringBuilder sb = new StringBuilder(); //문자열을 쉽게 다루기 위한 클래스
+------------------------------
+String s;
+s.tocharArray() //char타입 배열로 변환
 
