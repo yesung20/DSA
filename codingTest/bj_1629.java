@@ -16,7 +16,7 @@ public class bj_1629 {
 
     public static long pow(long base, long exponent){
         if(exponent == 1){
-            return base;
+            return base % C;
         }
 
         long temp = pow(base, exponent / 2);
